@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6539" started-at="2020-05-15T15:58:44Z" finished-at="2020-05-15T15:58:50Z">
+  <suite started-at="2020-09-14T00:34:59 BST" name="Default suite" finished-at="2020-09-14T00:35:05 BST" duration-ms="6140">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6539" started-at="2020-05-15T15:58:44Z" finished-at="2020-05-15T15:58:50Z">
-      <class name="com.restassured.api.test_g">
-        <test-method status="PASS" signature="DELETE_test1()[pri:0, instance:com.restassured.api.test_g@29ee9faa]" name="DELETE_test1" duration-ms="6067" started-at="2020-05-15T15:58:44Z" finished-at="2020-05-15T15:58:50Z">
+    <test started-at="2020-09-14T00:34:59 BST" name="Default test" finished-at="2020-09-14T00:35:05 BST" duration-ms="6140">
+      <class name="com.restassured.api.Test01_Read">
+        <test-method signature="test01_1()[pri:0, instance:com.restassured.api.Test01_Read@147ed70f]" started-at="2020-09-14T00:34:59 BST" name="test01_1" finished-at="2020-09-14T00:35:02 BST" duration-ms="3413" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DELETE_test1 -->
-        <test-method status="PASS" signature="Get_test()[pri:0, instance:com.restassured.api.test_g@29ee9faa]" name="Get_test" duration-ms="185" started-at="2020-05-15T15:58:50Z" finished-at="2020-05-15T15:58:50Z">
+        </test-method> <!-- test01_1 -->
+        <test-method signature="test01_2()[pri:0, instance:com.restassured.api.Test01_Read@147ed70f]" started-at="2020-09-14T00:35:02 BST" name="test01_2" finished-at="2020-09-14T00:35:05 BST" duration-ms="2427" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Get_test -->
-        <test-method status="PASS" signature="PATCH_test()[pri:0, instance:com.restassured.api.test_g@29ee9faa]" name="PATCH_test" duration-ms="77" started-at="2020-05-15T15:58:50Z" finished-at="2020-05-15T15:58:50Z">
+        </test-method> <!-- test01_2 -->
+        <test-method signature="test01_3()[pri:0, instance:com.restassured.api.Test01_Read@147ed70f]" started-at="2020-09-14T00:35:05 BST" name="test01_3" finished-at="2020-09-14T00:35:05 BST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PATCH_test -->
-        <test-method status="PASS" signature="POST_test()[pri:0, instance:com.restassured.api.test_g@29ee9faa]" name="POST_test" duration-ms="86" started-at="2020-05-15T15:58:50Z" finished-at="2020-05-15T15:58:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- POST_test -->
-        <test-method status="PASS" signature="PUT_test1()[pri:0, instance:com.restassured.api.test_g@29ee9faa]" name="PUT_test1" duration-ms="47" started-at="2020-05-15T15:58:50Z" finished-at="2020-05-15T15:58:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PUT_test1 -->
-      </class> <!-- com.restassured.api.test_g -->
+        </test-method> <!-- test01_3 -->
+      </class> <!-- com.restassured.api.Test01_Read -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
